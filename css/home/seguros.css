@@ -23,6 +23,7 @@
   padding: 3.2rem 3.2rem 3.2rem 6.4rem;
   display: grid;
   grid-template-columns: 1fr auto;
+  border-radius: 0.4rem;
 }
 
 .seguro-plano h3 {

@@ -43,6 +43,10 @@
     width: 100%;
 }
 
+.ativo a::after {
+    width: 100%;
+}
+
 @media (max-width: 900px) {
     
     .header-menu {
