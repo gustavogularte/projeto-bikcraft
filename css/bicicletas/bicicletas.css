@@ -1,0 +1,40 @@
+.bicicletas {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.bicicletas a {
+  place-self: end;
+}
+
+.nimbus {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 4rem;
+}
+
+.nimbus-conteudo h2 {
+  padding-bottom: 2rem;
+}
+
+.nimbus-conteudo h2::before {
+  content: "";
+  width: 1.2rem;
+  height: 0.8rem;
+  display: block;
+  background: var(--cor-p1);
+}
+
+.nimbus-conteudo p {
+  padding-bottom: 3.2rem;
+}
+
+.nimbus-conteudo li {
+  padding-bottom: 1.6rem;
+}
+
+.nimbus-conteudo ul li{
+  display: flex;
+  align-self: center;
+  gap: 0.8rem;
+}

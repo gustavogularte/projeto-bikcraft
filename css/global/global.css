@@ -1,0 +1,25 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+img[src$=".jpg"] {
+    border-radius: 4px;
+  }  
+
+html {
+    font-size: 62.5%;
+}

@@ -1,0 +1,97 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+}
+
+.imagem-dp{
+  background: url('../../img/fotos/depoimento.jpg') center no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*.depoimento img {
+  object-fit: cover;
+  object-position: bottom;
+  width: 100%;
+  height: 100%;
+  max-height: 54rem;
+  border-radius: 0rem;
+}*/
+
+.depoimento-conteudo {
+  background: var(--cor-p1);
+  align-self: end;
+  padding: 16rem 8rem 16rem 8rem;
+}
+
+.depoimento-conteudo p {
+  max-width: 32ch;
+  font-family: Merriweather;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 3.2rem;
+  position: relative;
+  display: block;
+}
+
+.depoimento p::before, .depoimento p::after {
+  color: var(--cor-p2);
+  font-size: 8rem;
+}
+
+.depoimento p::before {
+  content: "“";
+  left: -4.6rem;
+  position: absolute;
+}
+
+.depoimento p::after {
+  content: "”";
+  bottom: -4.4rem;
+  position: absolute;
+}
+
+
+@media (max-width: 900px) {
+
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .depoimento img {
+    max-height: 20rem;
+    object-position: center;
+  }
+
+  .depoimento-conteudo {
+    padding: 4rem 2rem;
+    margin: 0rem auto;
+  }
+
+  .depoimento-conteudo p {
+    margin-bottom: 2rem;
+  }
+
+  .depoimento p::before, .depoimento p::after {
+    font-size: 6rem;
+  }
+
+  .depoimento p::before {
+    left: -3.2rem;
+  }
+
+  .depoimento p::after {
+    bottom: -3.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .depoimento p::before {
+    left: -2.8rem;
+    position: absolute;
+  }
+}

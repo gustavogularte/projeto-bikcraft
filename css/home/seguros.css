@@ -1,0 +1,83 @@
+.seguros-bg {
+  background: var(--cor-11);
+}
+
+.seguros {
+  padding-top: 6rem;
+  padding-bottom: 12rem;
+}
+
+.seguros h2 {
+  margin-bottom: 6rem;
+}
+
+.seguros-itens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.seguro-plano {
+  background: var(--cor-12);
+  padding: 3.2rem 3.2rem 3.2rem 6.4rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.seguro-plano h3 {
+  margin-bottom: 4rem;
+}
+
+.seguro-plano span {
+  grid-column: 2;
+  display: block;
+  text-align: right;
+}
+
+.seguro-plano ul {
+  grid-column: 1/-1;
+  margin-bottom: 3.2rem;
+}
+
+.seguro-plano li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  position: relative;
+}
+
+.seguro-plano li + li {
+  margin-top: 2rem;
+}
+
+.seguro-plano li::before {
+  content: "";
+  width: 1.3rem;
+  height: 0.9rem;
+  background-image: url("../../img/icones/lista.svg");
+  position: absolute;
+  left: -2.1rem;
+}
+
+.seguro-plano a {
+  grid-column: 1/-1;
+}
+
+
+@media (max-width: 900px) {
+
+  .seguros-itens {
+    grid-template-columns: 1fr;
+    max-width: 56rem;
+    margin: 0rem auto;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .seguro-plano {
+    padding: 2rem 2rem 2rem 4rem;
+  }
+
+}
