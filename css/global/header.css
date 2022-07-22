@@ -66,6 +66,10 @@
     .header-menu a:hover::after {
         display: none;
     }
+
+    .ativo a::after {
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {

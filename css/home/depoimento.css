@@ -10,7 +10,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: left center;
+  background-position: left;
 }
 /*.depoimento img {
   object-fit: cover;
@@ -64,8 +64,8 @@
   }
 
   .imagem-dp {
-    height: 20rem;
-    background-position: left;
+    height: 26rem;
+    background-position: bottom;
   }
 
   .depoimento-conteudo {
@@ -91,10 +91,6 @@
 }
 
 @media (max-width: 600px) {
-
-  .imagem-dp {
-    height: 26rem;
-  }
 
   .depoimento p::before {
     left: -2.8rem;
