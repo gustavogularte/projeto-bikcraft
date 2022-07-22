@@ -4,7 +4,6 @@
   padding-top: 6rem;
   padding-bottom: 6rem;
   gap: 4rem;
-  align-items: center;
 }
 
 .bicicletas-img {
@@ -20,8 +19,21 @@
   border-radius: 0.4rem 0rem 0rem 0.4rem;
 }
 
+.bicicletas-conteudo {
+  place-content: start;
+}
+
 .bicicletas h2 {
   padding-bottom: 1.6rem;
+}
+
+.bicicletas h2::before {
+  content: "";
+  display: block;
+  width: 1.2rem;
+  height: 0.8rem;
+  background: var(--cor-p1);
+  margin-bottom: 0.8rem;
 }
 
 .bicicletas p {
