@@ -70,8 +70,6 @@
 
   .seguros-itens {
     grid-template-columns: 1fr;
-    max-width: 56rem;
-    margin: 0rem auto;
   }
 }
 

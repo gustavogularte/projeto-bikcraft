@@ -83,10 +83,17 @@
 
 @media (max-width: 900px) {
 
+  .container {
+    max-width: 56rem;
+    margin: 0rem auto;
+  }
+
   .titulo {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+
+  
 
   .titulo p {
     font-size: 1.6rem;

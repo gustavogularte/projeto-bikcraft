@@ -71,8 +71,6 @@
 
   .bicicletas {
     grid-template-columns: 1fr;
-    max-width: 56rem;
-    margin: 0rem auto;
     gap: 2rem;
   }
 
