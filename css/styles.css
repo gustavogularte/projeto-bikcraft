@@ -6,6 +6,7 @@
 @import "utilidades/componentes.css";
 @import "utilidades/cores.css";
 @import "utilidades/tipografia.css";
+@import "utilidades/formulario.css";
 
 /* home */
 @import "home/introducao.css";
@@ -24,3 +25,6 @@
 
 /* seguros */
 @import "seguros/seguros.css";
+
+/* contato */
+@import "contato/contato.css";
