@@ -1,0 +1,75 @@
+.lojas {
+  padding-bottom: 12rem;
+}
+
+.lojas h2 {
+  padding-bottom: 6rem;
+}
+
+.loja {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 4rem;
+}
+
+.loja-item {
+  background-color: var(--cor-0);
+  border-radius: 0.4rem;
+}
+
+.loja-item img {
+  border-radius: 0.4rem 0.4rem 0 0;
+}
+
+.loja-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3.2rem;
+  gap: 3.2rem;
+}
+
+.loja-conteudo h3, .loja-tempo {
+  grid-column: 1/-1;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.loja-conteudo h3::before {
+  content: "";
+  display: inline-block;
+  width: 1.2rem;
+  height: 0.8rem;
+  background-color: var(--cor-p1);
+}
+
+.loja-dados {
+  border-left: 0.2rem solid var(--cor-2);
+  padding-left: 1.8rem;
+}
+
+.loja-dados a {
+  display: block;
+}
+
+
+@media (max-width: 900px) {
+
+  .lojas {
+    padding-bottom: 6rem;
+  }
+
+  .loja {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+  
+}
+
+
+@media (max-width: 600px) {
+  .loja-conteudo {
+    grid-template-columns: 1fr;
+    padding: 2rem;
+  }
+}

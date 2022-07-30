@@ -19,6 +19,7 @@
 
 .form input[type="text"],
 .form input[type="email"],
+.form input[type="number"],
 .form textarea {
   padding: 1.2rem;
   font: 400 1.6rem/1.5 "Roboto", sans-serif;
