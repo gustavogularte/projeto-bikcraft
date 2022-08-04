@@ -87,12 +87,15 @@
 }
 
 .perguntas dd {
-  display: none;
   max-width: 80ch;
   padding-left: 2rem;
 }
 
-.perguntas dd.ativa {
+.js .perguntas dd {
+  display: none;
+}
+
+.js .perguntas dd.ativa {
   display: block;
 }
 

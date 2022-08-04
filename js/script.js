@@ -67,3 +67,10 @@ function trocarImagem(event) {
     galeriaContainer.prepend(img);
   }
 }
+
+
+// Animação
+
+if (window.SimpleAnime) {
+  new SimpleAnime()
+}
