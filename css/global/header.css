@@ -59,9 +59,10 @@
         background-color: var(--cor-10);
     }
 
-    .header-menu a:hover::after, .ativo a::after {
+    .header-menu a:hover::after, .header-menu a.ativo::after {
         display: none;
     }
+    
 
 }
 
