@@ -1,0 +1,10 @@
+@import 'geral/geral.css';
+@import 'geral/header.css';
+@import 'geral/footer.css';
+
+@import 'utilitarios/cores.css';
+@import 'utilitarios/fontes.css';
+@import 'utilitarios/componentes.css';
+
+@import 'home/introducao.css';
+@import 'home/bicicletas-home.css';

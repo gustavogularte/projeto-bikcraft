@@ -1,0 +1,33 @@
+.header-bg {
+  background-color: var(--cor-3);
+  padding: 4rem;
+}
+
+.header-bg div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.header-menu a {
+  padding: 1.6rem 0;
+}
+
+.header-menu a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0.2rem;
+  background-color: var(--cor-0);
+  margin-top: 0.4rem;
+  transition: 0.3s;
+}
+
+.header-menu a:hover:after {
+  width: 100%;
+}

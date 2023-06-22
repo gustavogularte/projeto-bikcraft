@@ -1,0 +1,22 @@
+.introducao-bg {
+  background-color: var(--cor-3);
+  box-shadow: 0 -16rem inset var(--cor-0);
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.introducao-conteudo h1 {
+  padding-top: 12rem;
+}
+
+.introducao-conteudo p {
+  padding: 2rem 0;
+}
+
+.introducao-img img {
+  height: 100%;
+}
