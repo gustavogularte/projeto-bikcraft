@@ -5,8 +5,10 @@
 
 .header-bg div {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  gap: 4rem;
 }
 
 .header-menu {
@@ -33,4 +35,12 @@
 
 .header-menu a:hover:after {
   width: 100%;
+}
+
+@media (max-width: 950px) {
+  .header-menu a {
+    background-color: var(--cor-2);
+    padding: 1.2rem 2.4rem;
+    border-radius: 0.4rem;
+  }
 }
