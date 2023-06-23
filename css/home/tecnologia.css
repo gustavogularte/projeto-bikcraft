@@ -1,0 +1,35 @@
+.tecnologia-bg {
+  background-color: var(--cor-2);
+  box-shadow: 0 10rem inset var(--cor-0), 0 -10rem inset var(--cor-0);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+}
+
+.tecnologia-conteudo {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.tecnologia-conteudo article > p {
+  padding: 4rem 0;
+}
+
+.tecnologia-lista {
+  display: flex;
+  gap: 4rem;
+  padding-top: 6rem;
+}
+
+.tecnologia-lista h3 {
+  padding: 0.8rem 0;
+}
+
+.tecnologia-img {
+  height: 100%;
+  object-fit: cover;
+}

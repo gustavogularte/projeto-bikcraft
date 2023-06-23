@@ -35,7 +35,7 @@
 .f-3 {
   font-size: 1.8rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 @media (max-width: 1150px) {
@@ -81,5 +81,9 @@
 @media (max-width: 500px) {
   .f-1 {
     font-size: 3.2rem;
+  }
+
+  .f-3 {
+    font-size: 1.4rem;
   }
 }
