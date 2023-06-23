@@ -37,3 +37,55 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
+
+@media (max-width: 1150px) {
+  .fn-1 {
+    font-size: 2rem;
+  }
+  
+  .fn-2 {
+    font-size: 1.6rem;
+  }
+  
+  .fn-3 {
+    font-size: 1.4em;
+  }
+  
+  .f-1 {
+    font-size: 5.2rem;
+  }
+  
+  .f-2 {
+    font-size: 2.8rem;
+  }
+  
+  .f-3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .fn-1 {
+    font-size: 1.8rem;
+  }
+  
+  .fn-2 {
+    font-size: 1.4rem;
+  }
+  
+  .fn-3 {
+    font-size: 1.2em;
+  }
+  
+  .f-1 {
+    font-size: 4rem;
+  }
+  
+  .f-2 {
+    font-size: 2rem;
+  }
+  
+  .f-3 {
+    font-size: 1.4rem;
+  }
+}
