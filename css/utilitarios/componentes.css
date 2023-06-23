@@ -45,3 +45,9 @@
 .titulo p {
   text-transform: uppercase;
 }
+
+@media (max-width: 950px) {
+  .botao-link {
+    font-size: 2rem;
+  }
+}

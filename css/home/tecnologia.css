@@ -33,3 +33,23 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 950px) {
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+
+  .tecnologia-img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .tecnologia-lista {
+    display: grid;
+  }
+
+  .tecnologia-lista p {
+    max-width: 40ch;
+  }
+}
