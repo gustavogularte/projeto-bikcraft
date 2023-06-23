@@ -11,6 +11,11 @@
 .bicicletas-home-lista {
   display: flex;
   gap: 4rem;
+  overflow-x: auto;
+}
+
+.bicicletas-home-lista li {
+  min-width: 28rem;
 }
 
 .bicicletas-home-lista li:hover h3::before {

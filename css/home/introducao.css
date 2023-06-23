@@ -36,6 +36,10 @@
     justify-items: center;
   }
 
+  .introducao picture {
+    width: 100%;
+  }
+
   .introducao-img {
     height: 30rem;
     width: 100%;
