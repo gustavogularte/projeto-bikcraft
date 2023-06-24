@@ -1,0 +1,25 @@
+.parceiros {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 140rem;
+  margin: 0 auto;
+  padding-top: 6rem;
+  padding-bottom: 12rem;
+}
+
+.parceiros li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  border-right: 0.2rem solid #ececec;
+}
+
+.parceiros li:last-child,
+.parceiros li:nth-child(4) {
+  border: none;
+}
+
+.parceiros li:nth-child(n + 5) {
+  border-top: 0.2rem solid #ececec;
+}
