@@ -36,6 +36,10 @@
 }
 
 @media (max-width: 950px) {
+  .tecnologia-bg {
+    margin-bottom: 0rem;
+  }
+
   .tecnologia {
     grid-template-columns: 1fr;
   }

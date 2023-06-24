@@ -44,3 +44,9 @@
 .bicicletas-home-lista p {
   padding-left: 2rem;
 }
+
+@media (max-width: 950px) {
+  .bicicletas-home {
+    padding: 8rem 2rem 0rem 2rem;
+  }
+}

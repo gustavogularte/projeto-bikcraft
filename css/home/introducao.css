@@ -36,6 +36,10 @@
     justify-items: center;
   }
 
+  .introducao-conteudo h1 {
+    padding-top: 6rem;
+  }
+
   .introducao picture {
     width: 100%;
   }
