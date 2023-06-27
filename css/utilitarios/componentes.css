@@ -12,6 +12,7 @@
   text-transform: uppercase;
   border-radius: 0.4rem;
   color: #332200;
+  font-weight: 600;
 }
 
 .botao:hover {
