@@ -1,3 +1,64 @@
 .seguros-bg {
   background-color: var(--cor-2);
+  padding: 6rem 0;
+}
+
+.seguros-bg h2 {
+  padding-bottom: 6rem;
+}
+
+.seguros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 4rem;
+}
+
+.seguros-item {
+  background-color: var(--cor-3);
+  padding: 3.2rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  justify-items: start;
+}
+
+.seguros-item h3 {
+  text-transform: uppercase;
+  padding-bottom: 3.2rem;
+  padding-left: 2.1rem;
+}
+
+.seguros-item span {
+  justify-self: end;
+}
+
+.seguros-item small {
+  font-size: 1.2rem;
+  display: block;
+  text-align: end;
+}
+
+.seguros-item ul {
+  grid-column: 1/-1;
+}
+
+.seguros-item li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding-bottom: 2rem;
+}
+
+.seguros-item li::before {
+  content: '';
+  display: inline-block;
+  background-image: url('../../img/icones/lista.svg');
+  width: 1.3rem;
+  height: 0.9rem;
+}
+
+.seguros-item a {
+  grid-column: 1/-1;
+  margin-left: 2.1rem;
 }

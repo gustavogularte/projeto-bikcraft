@@ -19,6 +19,15 @@
   background: linear-gradient(#ffbf00, #da9100);
 }
 
+.botao-secundario {
+  background: #2e2e2e;
+  color: var(--cor-0);
+}
+
+.botao-secundario:hover {
+  background: #474747;
+}
+
 .botao-link {
   display: inline-block;
   color: var(--cor-p1);
