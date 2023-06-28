@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  justify-items: center;
   gap: 4rem;
 }
 
@@ -21,6 +22,8 @@
   grid-template-columns: 1fr 1fr;
   align-items: start;
   justify-items: start;
+  width: 100%;
+  max-width: 560px;
 }
 
 .seguros-item h3 {
@@ -61,4 +64,12 @@
 .seguros-item a {
   grid-column: 1/-1;
   margin-left: 2.1rem;
+}
+
+@media (max-width: 950px) {
+  .seguros {
+    grid-template-columns: 1fr;
+  }
+
+ 
 }
