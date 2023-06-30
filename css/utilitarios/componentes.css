@@ -52,6 +52,11 @@
   background-color: var(--cor-0);
 }
 
+.titulo {
+  padding: 6rem 0;
+  background-color: var(--cor-2);
+}
+
 .titulo p {
   text-transform: uppercase;
 }

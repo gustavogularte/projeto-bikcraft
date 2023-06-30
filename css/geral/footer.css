@@ -45,6 +45,10 @@
   color: var(--cor-0);
 }
 
+.footer-bg a:hover {
+  color: var(--cor-0);
+}
+
 @media (max-width: 950px) {
   .footer {
     grid-template-columns: 1fr;

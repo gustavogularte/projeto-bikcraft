@@ -12,12 +12,8 @@
 }
 
 .tecnologia-conteudo {
-  padding-top: 16rem;
+  padding-top: 10rem;
   padding-bottom: 16rem;
-}
-
-.tecnologia-conteudo article > p {
-  padding: 4rem 0;
 }
 
 .tecnologia-lista {
