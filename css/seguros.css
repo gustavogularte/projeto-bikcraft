@@ -17,3 +17,49 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 4rem;
 }
+
+.perguntas {
+  padding: 6rem 0;
+}
+
+.perguntas h2 {
+  padding-bottom: 4rem;
+}
+
+.perguntas dl div {
+  padding: 2rem;
+}
+
+.perguntas dl div:nth-child(odd) {
+  background-color: #f7f7f7
+}
+
+.perguntas dt {
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.perguntas dt::before {
+  content: '';
+  width: 1.2rem;
+  height: 0.8rem;
+  display: inline-block;
+  background-color: var(--cor-p1);
+}
+
+.perguntas dt::after {
+  content: '';
+  background-image: url('../img/icones/seta-abrir.svg');
+  width: 1.4rem;
+  height: 0.6rem;
+  display: inline-block;
+}
+
+.perguntas dd {
+  padding-top: 1.2rem;
+  max-width: 76ch;
+  padding-left: 2rem;
+}
