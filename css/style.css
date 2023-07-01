@@ -5,6 +5,7 @@
 @import 'utilitarios/cores.css';
 @import 'utilitarios/fontes.css';
 @import 'utilitarios/componentes.css';
+@import 'utilitarios/formulario.css';
 
 @import 'home/introducao.css';
 @import 'home/bicicletas-home.css';

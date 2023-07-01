@@ -1,0 +1,43 @@
+.contatos-formulario {
+  background-color: var(--cor-0);
+  padding: 6rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contatos-formulario form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6rem;
+}
+
+input,
+textarea {
+  display: block;
+  margin-top: 0.8rem;
+  background-color: #f7f7f7;
+  border: 0.2rem solid #ececec;
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+}
+
+.span-2 {
+  grid-column: 1/-1;
+}
+
+.contatos-formulario button {
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .contatos-formulario {
+    padding: 2rem;
+  }
+
+  .contatos-formulario form {
+    grid-template-columns: 1fr;
+  }
+}
