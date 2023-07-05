@@ -23,6 +23,14 @@ textarea {
   width: 100%;
 }
 
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: var(--cor-0);
+  border-color: var(--cor-p1);
+  box-shadow: 0 0 0 2px #fea;
+}
+
 .span-2 {
   grid-column: 1/-1;
 }
@@ -30,6 +38,7 @@ textarea {
 .contatos-formulario button {
   border: none;
   cursor: pointer;
+  outline-color: var(--cor-p1);
 }
 
 @media (max-width: 800px) {
