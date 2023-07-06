@@ -1,0 +1,24 @@
+.bicicleta-bg {
+  background-color: var(--cor-2);
+}
+
+.bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.bicicleta-imagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  gap: 2rem;
+}
+
+.bicleta-img-principal {
+  grid-column: 1/-1;
+}
+
+.bicicleta-info-titulo {
+  text-transform: uppercase;
+}

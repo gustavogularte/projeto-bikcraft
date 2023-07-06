@@ -16,6 +16,10 @@
   padding-bottom: 16rem;
 }
 
+.tecnologia-conteudo a {
+  padding-top: 2rem;
+}
+
 .tecnologia-lista {
   display: flex;
   gap: 4rem;
