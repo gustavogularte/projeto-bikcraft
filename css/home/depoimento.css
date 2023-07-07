@@ -4,11 +4,10 @@
   background-color: var(--cor-p1);
 }
 
-.depoimento img {
-  max-height: 50rem;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 0;
+.depoimento-img {
+  background: url('../../img/fotos/depoimento.jpg') fixed center no-repeat;
+  background-size: cover;
+  height: 50rem;
 }
 
 .depoimento-conteudo {
@@ -51,7 +50,7 @@
     grid-template-columns: 1fr;
   }
 
-  .depoimento img {
+  .depoimento-img {
     max-height: 20rem;
   }
 
