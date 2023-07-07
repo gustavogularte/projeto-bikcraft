@@ -1,0 +1,25 @@
+.orcamento {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+.orcamento h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.orcamento h2::before {
+  content: '';
+  display: inline-block;
+  background-color: var(--cor-p1);
+  height: 0.8rem;
+  width: 0.4rem;
+}
+
+.orcamento-produto {
+  background-color: var(--cor-3);
+  padding: 4rem;
+}

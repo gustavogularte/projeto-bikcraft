@@ -23,11 +23,61 @@
     </div>
   </header>
 
-  <main>
+  <main class="bg-extendido">
     <div class="titulo">
-      <p class="fn-1 c-1 container">Cotações no seu email</p>
+      <p class="fn-1 c-1 container">Cotação no seu email</p>
       <h1 class="f-1 c-0 container">solicite um orçamento<span class="p-1">.</span></h1>
     </div>
+    <form class="orcamento container">
+      <section class="orcamento-produto">
+        <h2 class="span-2 f-3 c-1">Bikcraft ou seguro?</h2>
+      </section>
+      <article class="form fn-3 c-2">
+        <h2 class="span-2 f-3 c-2 ">Dados pessoais</h2>
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome">
+        </div>
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" id="sobrenome" name="sobrenome">
+        </div>
+        <div class="span-2">
+          <label for="cpf">CPF</label>
+          <input type="text" id="cpf" name="cpf" placeholder="000.000.000-33">
+        </div>
+        <div class="span-2">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="exemplo@gmail.com"></input>
+        </div>
+        <h2 class="span-2 f-3 c-2">Entrega</h2>
+        <div>
+          <label for="cep">CEP</label>
+          <input type="text" name="cep" id="cep"></input>
+        </div>
+        <div>
+          <label for="numero">Número</label>
+          <input type="text" name="numero" id="numero"></input>
+        </div>
+        <div>
+          <label for="logradouro">Logradouro</label>
+          <input type="text" name="logradouro" id="logradouro"></input>
+        </div>
+        <div>
+          <label for="bairro">Bairro</label>
+          <input type="text" name="bairro" id="bairro"></input>
+        </div>
+        <div>
+          <label for="cidade">Cidade</label>
+          <input type="text" name="cidade" id="cidade"></input>
+        </div>
+        <div>
+          <label for="estado">Estado</label>
+          <input type="text" name="estado" id="estado"></input>
+        </div>
+        <button class="botao span-2 f-3">Solicitar orçamento</button>
+      </article>
+    </form>
   </main>
 
   <footer class="footer-bg">

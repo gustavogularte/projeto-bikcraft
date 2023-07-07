@@ -1,8 +1,3 @@
-.contatos-bg {
-  background: linear-gradient(var(--cor-2) 40rem, var(--cor-0) 0px);
-  margin-bottom: 12rem;
-}
-
 .contatos {
   display: grid;
   grid-template-columns: 5fr 7fr;
@@ -128,8 +123,4 @@
   .lojas-conteudo {
     padding: 2rem;
   }
-}
-
-@media (max-width:500px) {
-  
 }
