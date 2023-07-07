@@ -85,3 +85,33 @@
   border-top: 0.1rem solid var(--cor-2);
   padding-top: 0.8rem;
 }
+
+.bicicleta-seguro-bg {
+  background-color: var(--cor-2);
+  box-shadow: 0 10rem inset var(--cor-0), 0 -10rem inset var(--cor-3);
+}
+
+.bicicleta-seguro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.bicicleta-seguro > img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.bicicleta-seguro-conteudo {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.bicicleta-seguro-conteudo h2 {
+  padding-bottom: 2rem;
+}
+
+.bicicleta-seguro-conteudo p {
+  padding-bottom: 2rem;
+}
