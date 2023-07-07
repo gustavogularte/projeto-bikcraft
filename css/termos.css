@@ -1,0 +1,17 @@
+.termos {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.termos h2 {
+  padding-bottom: 2rem;
+}
+
+.termos p {
+  padding-bottom: 2.8rem;
+  max-width: 72ch;
+}
+
+.termos p + h2 {
+  padding-top: 4rem;
+}
