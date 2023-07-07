@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
+  padding-bottom: 6rem;
 }
 
 .bicicleta-imagens {
