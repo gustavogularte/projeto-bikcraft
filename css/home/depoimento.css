@@ -60,3 +60,20 @@
     padding: 4rem 2rem;
   }
 }
+
+@media (max-width: 500px) {
+  .depoimento-img {
+    background: url('../../img/fotos/depoimento.jpg') fixed bottom no-repeat;
+  }
+
+  .depoimento-conteudo p::before {
+    font-size: 4rem;
+    left: -2rem;
+    top: -2rem;
+  }
+  
+  .depoimento-conteudo p::after {
+    font-size: 4rem;
+    bottom: -2rem;
+  }
+}
