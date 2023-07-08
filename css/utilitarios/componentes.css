@@ -66,6 +66,13 @@
   margin-bottom: 12rem;
 }
 
+@keyframes drop-down {
+  from {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+}
+
 @media (max-width: 950px) {
   .botao-link {
     font-size: 2rem;
