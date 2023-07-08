@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,17 @@
   <link rel="shortcut icon" href="/favicon.svg" type="image/svg">
   <title>Nimbus | Bikcraft</title>
 </head>
+
 <body>
   <header class="header-bg">
     <div class="container">
-      <a href="/"><img src="/img/bikcraft.svg" alt="Bikcraft Logo"></a>
+      <a href="/"><img src="../img/bikcraft.svg" alt="Bikcraft Logo"></a>
       <nav>
-        <ul class="header-menu c-0 f-3">
-          <li><a href="./bicicletas.html">Bicicletas</a></li>
-          <li><a href="./seguros.html">Seguros</a></li>
-          <li><a href="./contato.html">Contato</a></li>
+        <button class="menu-mobile" type="button" aria-controls="menu" data-menu="menuBotao" aria-expanded="false" aria-label="Abrir e fechar menu"></button>
+        <ul class="header-menu c-0 f-3" data-menu="menu">
+          <li><a href="../bicicletas.html">Bicicletas</a></li>
+          <li><a href="../seguros.html">Seguros</a></li>
+          <li><a href="../contato.html">Contato</a></li>
         </ul>
       </nav>
     </div>
@@ -47,22 +50,22 @@
           <h4 class="bicicleta-info-titulo f-3 c-0">informações</h4>
           <ul class="bicicleta-info bicicleta-infos-bg">
             <li>
-              <img src="/img/icones/eletrica.svg" alt="" width="24" height="24">
+              <img src="../img/icones/eletrica.svg" alt="" width="24" height="24">
               <h3 class="f-3 c-0">Motor Elétrico</h3>
               <p class="fn-3 c-1">Permite você viajar distâncias inimaginaveis com a sua bike.</p>
             </li>
             <li>
-              <img src="/img/icones/rastreador.svg" alt="" width="24" height="24">
+              <img src="../img/icones/rastreador.svg" alt="" width="24" height="24">
               <h3 class="f-3 c-0">50 km/h</h3>
               <p class="fn-3 c-1">A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
             </li>
             <li>
-              <img src="/img/icones/rastreador.svg" alt="" width="24" height="24">
+              <img src="../img/icones/rastreador.svg" alt="" width="24" height="24">
               <h3 class="f-3 c-0">Rastreador</h3>
               <p class="fn-3 c-1">Rastreador e sistema anti-furto para garantir o seu sossego.</p>
             </li>
             <li>
-              <img src="/img/icones/carbono.svg" alt="" width="24" height="24">
+              <img src="../img/icones/carbono.svg" alt="" width="24" height="24">
               <h3 class="f-3 c-0">Fibra de Carbono</h3>
               <p class="fn-3 c-1">Maior proteção possível para a sua Bikcraft com fibra de carbono.</p>
             </li>
@@ -126,9 +129,9 @@
           <li>Rio de Janeiro - RJ</li>
         </ul>
         <ul class="contato-redes">
-          <li><a href="https://www.instagram.com/marmitas_guga/" target="_blank"><img src="img/redes/instagram.svg" alt=""></a></li>
-          <li><a href="https://www.facebook.com/profile.php?id=100091625292086" target="_blank"><img src="img/redes/facebook.svg" alt=""></a></li>
-          <li><a href="https://www.youtube.com/@Gr11xyz" target="_blank"><img src="img/redes/youtube.svg" alt=""></a></li>
+          <li><a href="https://www.instagram.com/marmitas_guga/" target="_blank"><img src="../img/redes/instagram.svg" alt=""></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100091625292086" target="_blank"><img src="../img/redes/facebook.svg" alt=""></a></li>
+          <li><a href="https://www.youtube.com/@Gr11xyz" target="_blank"><img src="../img/redes/youtube.svg" alt=""></a></li>
         </ul>
       </div>
 
@@ -144,5 +147,8 @@
     </article>
     <p class="fn-2 c-1 container">Bikcraft © Projeto feito por <a href="https://github.com/gustavogularte" target="_blank">Gustavo Gularte Arend</a>.</p>
   </footer>
+
+  <script type="module" src="../js/script.js"></script>
 </body>
+
 </html>
