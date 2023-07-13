@@ -40,6 +40,7 @@
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 0.8rem;
+  cursor: pointer;
 }
 
 .perguntas dt::before {
@@ -59,7 +60,13 @@
 }
 
 .perguntas dd {
+  display: none;
   padding-top: 1.2rem;
   max-width: 76ch;
   padding-left: 2rem;
+  animation: drop-down .3s forwards;
+}
+
+.perguntas dd.ativo {
+  display: block;
 }

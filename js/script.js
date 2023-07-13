@@ -1,4 +1,5 @@
 import HeaderMenu from './modules/headerMenu.js';
+import Perguntas from './modules/perguntas.js';
 
 const headerMenu = new HeaderMenu(
   '[data-menu="menu"]',
@@ -6,3 +7,6 @@ const headerMenu = new HeaderMenu(
   '[data-menu="menu"] a',
 );
 headerMenu.init();
+
+const perguntas = new Perguntas('[data-seguros="perguntas"] dt');
+perguntas.init();
