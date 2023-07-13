@@ -5,6 +5,7 @@ export default class HeaderMenu {
     this.menuLinks = document.querySelectorAll(menuLinks);
 
     this.handleClick = this.handleClick.bind(this);
+    this.ariaExpandedToggle = this.ariaExpandedToggle.bind(this);
   }
 
   handleClick() {
@@ -20,12 +21,22 @@ export default class HeaderMenu {
     });
   }
 
+  ariaExpandedToggle() {
+    if (window.innerWidth < 950) {
+      this.menuBotao.setAttribute('aria-expanded', true);
+    } else {
+      this.menuBotao.setAttribute('aria-expanded', false);
+    }
+  }
+
   addEvent() {
     this.menuBotao.addEventListener('click', this.handleClick);
+    window.addEventListener('resize', this.ariaExpandedToggle);
   }
 
   init() {
     this.addEvent();
     this.linkAtivo();
+    this.ariaExpandedToggle();
   }
 }
