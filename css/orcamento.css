@@ -22,4 +22,40 @@
 .orcamento-produto {
   background-color: var(--cor-3);
   padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: start;
+  gap: 2rem;
+}
+
+.orcamento-produto > * {
+  grid-column: 1/-1;
+}
+
+.orcamento-produto input {
+  opacity: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.orcamento-produto label {
+  background-color: #2e2e2e;
+  padding: 1.2rem 2.4rem;
+  border-radius: 0.4rem;
+  grid-column: initial;
+  cursor: pointer;
+}
+
+#bikcraft:checked + label,
+#seguro:checked + label {
+  background-color: var(--cor-0);
+  color: var(--cor-2);
+}
+
+.orcamento-conteudo {
+  display: none;
+}
+
+#bikcraft:checked ~ #orcamento-bikcraft {
+  display: block;
 }
