@@ -39,6 +39,9 @@
 }
 
 .orcamento-produto label {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
   background-color: #2e2e2e;
   padding: 1.2rem 2.4rem;
   border-radius: 0.4rem;
@@ -46,8 +49,12 @@
   cursor: pointer;
 }
 
-#bikcraft:checked + label,
-#seguro:checked + label {
+.orcamento-produto input:checked + label {
+  background-color: var(--cor-0);
+  color: var(--cor-2);
+}
+
+.orcamento-conteudo input:checked + label {
   background-color: var(--cor-0);
   color: var(--cor-2);
 }
@@ -56,6 +63,55 @@
   display: none;
 }
 
-#bikcraft:checked ~ #orcamento-bikcraft {
+.orcamento-conteudo label {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  margin: 2rem 0;
+}
+.orcamento-produto label span {
+  display: none;
+}
+.orcamento-produto label::before {
+  content: '';
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 0.1rem solid #9c9c9c;
+  border-radius: 50%;
+}
+.orcamento-produto input:checked + label span {
+  display: inline-block;
+}
+.orcamento-produto input:checked + label::before {
+  box-shadow: inset 0 0 0 3px var(--cor-0), inset 0 0 0 6px var(--cor-1);
+}
+.orcamento-produto input:focus + label  {
+  border: 0.2rem solid var(--cor-p1);
+}
+
+
+#bikcraft:checked ~ #orcamento-bikcraft,
+#seguro:checked ~ #orcamento-seguro {
   display: block;
+}
+.orcamento-conteudo input:checked + label + .orcamento-detalhes{
+  display: grid;
+}
+
+.orcamento-detalhes {
+  display: none;
+  background-color: var(--cor-0);
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.orcamento-detalhes .bicicletas-espec {
+  gap: 0.8rem;
+}
+
+.orcamento-detalhes .bicicletas-espec li {
+  gap: 0.4rem;
+  font-size: 1.2rem;
 }

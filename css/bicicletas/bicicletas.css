@@ -43,17 +43,19 @@
 
 .bicicletas-conteudo p {
   grid-column: 1/-1;
+  padding-bottom: 2rem;
 }
 
-.bicicletas-conteudo ul {
-  padding-top: 2rem;
+.bicicletas-espec {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
 }
 
-.bicicletas-conteudo li {
+.bicicletas-espec li {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  padding-bottom: 2rem;
 }
 
 .bicicletas-conteudo a {
