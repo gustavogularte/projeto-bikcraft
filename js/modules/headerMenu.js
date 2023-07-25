@@ -35,8 +35,10 @@ export default class HeaderMenu {
   }
 
   init() {
-    this.addEvent();
-    this.linkAtivo();
-    this.ariaExpandedToggle();
+    if (this.menuBotao && this.linkAtivo) {
+      this.linkAtivo();
+      this.addEvent();
+      this.ariaExpandedToggle();
+    }
   }
 }

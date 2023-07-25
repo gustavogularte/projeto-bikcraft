@@ -17,6 +17,8 @@ export default class Galeria {
   }
 
   init() {
-    this.addEvent();
+    if (this.galeria && this.imagens) {
+      this.addEvent();
+    }
   }
 }

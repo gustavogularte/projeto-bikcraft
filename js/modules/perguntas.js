@@ -18,6 +18,8 @@ export default class Perguntas {
   }
 
   init() {
-    this.addEvent();
+    if (this.perguntas) {
+      this.addEvent();
+    }
   }
 }

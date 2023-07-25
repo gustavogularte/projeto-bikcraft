@@ -11,6 +11,8 @@ export default class Parametros {
   }
 
   init() {
-    this.parametros.forEach(this.ativarParametro);
+    if (this.parametros) {
+      this.parametros.forEach(this.ativarParametro);
+    }
   }
 }
