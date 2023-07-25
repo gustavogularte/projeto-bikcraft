@@ -34,16 +34,20 @@
   background-color: #f7f7f7
 }
 
-.perguntas dt {
+.perguntas button {
   font-weight: 600;
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 0.8rem;
   cursor: pointer;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
 }
 
-.perguntas dt::before {
+.perguntas button::before {
   content: '';
   width: 1.2rem;
   height: 0.8rem;
@@ -51,7 +55,7 @@
   background-color: var(--cor-p1);
 }
 
-.perguntas dt::after {
+.perguntas button::after {
   content: '';
   background-image: url('../img/icones/seta-abrir.svg');
   width: 1.4rem;

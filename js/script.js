@@ -9,7 +9,7 @@ const headerMenu = new HeaderMenu(
 );
 headerMenu.init();
 
-const perguntas = new Perguntas('[data-seguros="perguntas"] dt');
+const perguntas = new Perguntas('[data-seguros="perguntas"] button');
 perguntas.init();
 
 const parametros = new Parametros();

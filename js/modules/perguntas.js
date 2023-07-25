@@ -4,8 +4,11 @@ export default class Perguntas {
   }
 
   mostrarResposta({ target }) {
-    const resposta = target.nextElementSibling;
+    const controls = target.getAttribute('aria-controls');
+    const resposta = document.getElementById(controls);
     resposta.classList.toggle('ativo');
+    const expanded = resposta.classList.contains('ativo');
+    target.setAttribute('aria-expanded', expanded);
   }
 
   addEvent() {
