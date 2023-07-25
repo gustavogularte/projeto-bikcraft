@@ -16,7 +16,7 @@
   gap: 2rem;
 }
 
-.bicleta-img-principal {
+.bicicleta-imagens li:first-child {
   grid-column: 1/-1;
 }
 
