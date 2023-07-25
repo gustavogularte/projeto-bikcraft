@@ -1,12 +1,16 @@
-export default function Parametros() {
-  const parametros = new URLSearchParams(document.location.search);
+export default class Parametros {
+  constructor() {
+    this.parametros = new URLSearchParams(document.location.search);
+  }
 
-  function ativarParametro(parametro) {
+  ativarParametro(parametro) {
     const elemento = document.getElementById(parametro);
     if (elemento) {
       elemento.checked = true;
     }
   }
 
-  parametros.forEach(ativarParametro);
+  init() {
+    this.parametros.forEach(this.ativarParametro);
+  }
 }

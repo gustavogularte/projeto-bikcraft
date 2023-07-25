@@ -12,4 +12,5 @@ headerMenu.init();
 const perguntas = new Perguntas('[data-seguros="perguntas"] dt');
 perguntas.init();
 
-Parametros();
+const parametros = new Parametros();
+parametros.init();
