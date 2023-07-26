@@ -115,3 +115,29 @@
 .bicicleta-seguro-conteudo p {
   padding-bottom: 2rem;
 }
+
+@media (max-width: 900px) {
+  .bicicleta {
+    grid-template-columns: 1fr;
+  }
+
+  .bicicleta-imagens {
+    max-width: 60rem;
+    justify-self: center;
+  }
+
+  .bicicleta-seguro {
+    grid-template-columns: 1fr;
+  }
+
+  .bicicleta-seguro-conteudo {
+    grid-row: 1;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width:500px) {
+  .bicicleta-info {
+    grid-template-columns: 1fr;
+  }
+}
