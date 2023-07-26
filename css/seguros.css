@@ -18,6 +18,10 @@
   gap: 4rem;
 }
 
+.vantagens h3 {
+  padding: 0.8rem 0;
+}
+
 .perguntas {
   padding: 6rem 0;
 }
@@ -73,4 +77,16 @@
 
 .js .perguntas dd.ativo {
   display: block;
+}
+
+@media (max-width: 600px) {
+  .vantagens {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .vantagens {
+    grid-template-columns: 1fr;
+  }
 }
