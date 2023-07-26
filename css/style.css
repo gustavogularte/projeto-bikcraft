@@ -6,6 +6,7 @@
 @import 'utilitarios/fontes.css';
 @import 'utilitarios/componentes.css';
 @import 'utilitarios/formulario.css';
+@import 'utilitarios/animacao.css';
 
 @import 'home/introducao.css';
 @import 'home/bicicletas-home.css';
