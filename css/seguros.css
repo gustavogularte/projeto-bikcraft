@@ -63,7 +63,7 @@
   display: inline-block;
 }
 
-.perguntas dd {
+.js .perguntas dd {
   display: none;
   padding-top: 1.2rem;
   max-width: 76ch;
@@ -71,6 +71,6 @@
   animation: drop-down .3s forwards;
 }
 
-.perguntas dd.ativo {
+.js .perguntas dd.ativo {
   display: block;
 }

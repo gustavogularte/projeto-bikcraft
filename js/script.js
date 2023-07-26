@@ -19,4 +19,6 @@ parametros.init();
 const galeria = new Galeria('.bicicleta-imagens', '.bicicleta-imagens li');
 galeria.init();
 
-new SimpleAnime();
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
