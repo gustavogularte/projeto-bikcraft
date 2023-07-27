@@ -6,7 +6,7 @@ Este é um projeto de site de vendas de bicicletas criado pela Origamid no curso
 
 ## </> **Tecnologias usadas**
 
-The main technologies used in this project were:
+As principais tecnologias usadas nesse projeto:
 
 - HTML
 - CSS
@@ -14,7 +14,7 @@ The main technologies used in this project were:
 
 ## 📖 **Descrição do Projeto**
 
-Neste curso é ensinado html e css do básico para quem não sabe nada, indo até códigos mais complexos, no final do curso também é ensinado o básico de JavaScript usado para mostrar e esconder as perguntas frequentes, fazer a geleria de imagens da bicicleta e adicionar um plugin de animação nos elementos principais da página. O botão mobile não faz parte do curso, ele foi feito por mim com o que eu aprendi e entendi em JavaScript e a sua acessibilidade foi inspirada no botão mobile da documentação do Bootstrap.
+Neste curso é ensinado html e css do básico para quem não sabe nada, indo até códigos mais complexos, no final do curso também é ensinado o básico de JavaScript, usado para mostrar e esconder as perguntas frequentes, fazer a geleria de imagens da bicicleta e adicionar um plugin de animação nos elementos principais da página. O botão mobile não faz parte do curso, ele foi feito por mim com o que eu aprendi e entendi em JavaScript e a sua acessibilidade foi inspirada no botão mobile da documentação do Bootstrap.
 
 ## 🔗 **Links**
 
