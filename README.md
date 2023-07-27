@@ -1,4 +1,4 @@
-<p align="center"><img src="./images/desktop-preview.jpg" /></p>
+<p align="center"><img src="./img/fotos/desktop-preview.jpg" /></p>
 <p align="center"><h1 align="center" >Bikcraft - Curso de HTML/CSS</h1></p>
 
 <p align="justify">
