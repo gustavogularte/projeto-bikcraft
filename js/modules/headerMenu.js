@@ -5,11 +5,15 @@ export default class HeaderMenu {
     this.menuLinks = document.querySelectorAll(menuLinks);
 
     this.handleClick = this.handleClick.bind(this);
-    this.ariaExpandedToggle = this.ariaExpandedToggle.bind(this);
   }
 
   handleClick() {
     this.menu.classList.toggle('ativo');
+    if (this.menu.classList.contains('ativo')) {
+      this.menuBotao.setAttribute('aria-expanded', true);
+    } else {
+      this.menuBotao.setAttribute('aria-expanded', false);
+    }
   }
 
   linkAtivo() {
@@ -21,24 +25,14 @@ export default class HeaderMenu {
     });
   }
 
-  ariaExpandedToggle() {
-    if (window.innerWidth < 950) {
-      this.menuBotao.setAttribute('aria-expanded', true);
-    } else {
-      this.menuBotao.setAttribute('aria-expanded', false);
-    }
-  }
-
   addEvent() {
     this.menuBotao.addEventListener('click', this.handleClick);
-    window.addEventListener('resize', this.ariaExpandedToggle);
   }
 
   init() {
     if (this.menuBotao && this.linkAtivo) {
       this.linkAtivo();
       this.addEvent();
-      this.ariaExpandedToggle();
     }
   }
 }
