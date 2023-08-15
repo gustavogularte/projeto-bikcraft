@@ -18,7 +18,7 @@ Neste curso é ensinado html e css do básico para quem não sabe nada, indo at�
 
 ## 🔗 **Links**
 
-- Aqui está o site original - <a href="https://www.origamid.com/projetos/bikcraft/" target="_blank">https://www.origamid.com/projetos/bikcraft/
+- Aqui está o site original - <a href="https://www.origamid.com/projetos/bikcraft/" target="_blank">https://www.origamid.com/projetos/bikcraft/<a>
 - Github pages - https://gustavogularte.github.io/projeto-bikcraft/
 - Meu Twitter - https://twitter.com/gustavoGulArend
 - Meu perfil no Front End Mentor com mais desafios - https://www.frontendmentor.io/profile/gustavogularte
