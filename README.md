@@ -8,9 +8,11 @@ Este é um projeto de site de vendas de bicicletas criado pela Origamid no curso
 
 As principais tecnologias usadas nesse projeto:
 
-- HTML
-- CSS
-- JavaScript
+`HTML`
+
+`CSS`
+
+`JAVASCRIPT`
 
 ## 📖 **Descrição do Projeto**
 
@@ -20,5 +22,6 @@ Neste curso é ensinado html e css do básico para quem não sabe nada, indo at�
 
 - Aqui está o site original - https://www.origamid.com/projetos/bikcraft/
 - Github pages - https://gustavogularte.github.io/projeto-bikcraft/
+- Linkedin - https://www.linkedin.com/in/gustavo-gularte-58742a286
 - Meu Twitter - https://twitter.com/gustavoGulArend
 - Meu perfil no Front End Mentor com mais desafios - https://www.frontendmentor.io/profile/gustavogularte
